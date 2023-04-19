@@ -2,3 +2,5 @@
 node/node_modules/
 
 express/node_modules/
+
+webpack/node_modules/
