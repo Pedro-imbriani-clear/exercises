@@ -1,4 +1,4 @@
-const logger = require('./logger')
+import Pessoa from "./pessoa"
 
-logger.info('Usando o padrao CommnonJS!')
-console.log('webpack')
+const pessoa = new Pessoa('Pedro2')
+console.log(pessoa.toString())
