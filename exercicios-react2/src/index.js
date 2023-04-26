@@ -6,6 +6,9 @@ import Multi from "./components/Multi";
 import FamiliaSilva from "./components/FamiliaSilva";
 import Familia from "./components/Familia";
 import Menbro from "./components/Menbro";
+import ComponenteComFunçao from "./components/ComponenteComFunçao";
+import Pais from "./components/Pais";
+import ComponenteClass from "./components/ComponenteClass";
 
 const element = document.getElementById('root')
 ReactDOM.render(
@@ -21,6 +24,10 @@ ReactDOM.render(
             <Menbro nome='Aline'/>
 
         </Familia>
+        <hr/>
+        <ComponenteComFunçao/>
+        <Pais/>
+        <ComponenteClass valor='Classe'/>
      
     </div>
 ,element)
