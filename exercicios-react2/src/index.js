@@ -10,6 +10,7 @@ import ComponenteComFunçao from "./components/ComponenteComFunçao";
 import Pais from "./components/Pais";
 import ComponenteClass from "./components/ComponenteClass";
 import Contador from "./components/contador";
+import Hooks from "./components/Hooks";
 
 const element = document.getElementById('root')
 ReactDOM.render(
@@ -30,6 +31,6 @@ ReactDOM.render(
         <Pais/>
         <ComponenteClass valor='Classe'/>
         <Contador/>
-     
+        <Hooks/>
     </div>
 ,element)
