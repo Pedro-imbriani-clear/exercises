@@ -5,6 +5,6 @@ import Primeiro from "./components/PrimeiroComponent";
 const element = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Primeiro/>
+        <Primeiro value='bom dia'/>
     </div>
 ,element)
