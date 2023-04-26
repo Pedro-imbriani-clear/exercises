@@ -16,15 +16,11 @@ ReactDOM.render(
         <Multi/>
         <FamiliaSilva/>
         <hr/>
-        <Familia>
-            <Menbro nome='Pedro' sobrenome='Imbriani'/>
-            <Menbro nome='Aline' sobrenome='Imbriani'/>
-            <Menbro nome='Isadora' sobrenome='Imbriani'/>
+        <Familia sobrenome='Imbriani'>
+            <Menbro nome='Pedro'/>
+            <Menbro nome='Aline'/>
+
         </Familia>
-                <Familia>
-            <Menbro nome='Claudia' sobrenome='Pereira'/>
-            <Menbro nome='Jeff' sobrenome='Pereira'/>
-            <Menbro nome='Ricardo' sobrenome='Pereira'/>
-        </Familia>
+     
     </div>
 ,element)
